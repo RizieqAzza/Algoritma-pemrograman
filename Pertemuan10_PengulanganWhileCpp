@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Bilangan" << endl;
+    
+    cout << "Ganjil : ";
+    int i = 1;
+    while (i < 36) {
+        cout << i << " ";
+        i += 2;
+    }
+
+    cout << endl << "Genap : ";
+    i = 2;
+    while (i < 35) {
+        cout << i << " ";
+        i += 2;
+    }
+
+    cout << endl;
+    return 0;
+}
